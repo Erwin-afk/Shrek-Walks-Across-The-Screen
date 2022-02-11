@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<body>
+<html>
+
+<head>
+    <link rel="stylesheet" href="s.css">
+</head>
+
+<style>
+    #shrek {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; cursor: pointer; visibility: hidden;}
+</style>
+
+<h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><a style="color: rgb(179, 255, 0);">Shrek</a> Walks Across Screen</h1>
+<h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><a style="color: rgb(0, 0, 0);">Hint</a>: Refresh to restart!</h2>
+
+<input class="shrek_b" type="button" onclick="walk();" value="Start"></input>
+<img src="ezgif.com-gif-maker (2).gif" id="shrek">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h6 style="font-family: monospace;">By Erwin</h6>
+
+<script>
+function walk () {
+    var shrek_walk = document.getElementById("shrek")
+    shrek_walk.style.visibility="visible";
+}
+</script>
+</html>
+</body>
